@@ -1,0 +1,46 @@
+body {
+    background-color: #2b2d31; /* Цвет фона веб-страницы */
+}
+
+.game {
+    width: 1280px;
+    height: 720px;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.table {
+    width: 50%;
+    position: relative;
+    top: 30%;
+
+    border: 1px solid #000;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sign {
+    width: 180px;
+    padding: 20px 0;
+    border: none;
+    background-color: #4f525a;
+
+    border: 2px solid #a6a9bb;
+    border-radius: 8px;
+
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+    color: #a6a9bb;
+    font: 22px "Fira Sans", sans-serif;
+}
+.sign:hover {
+    background-color: #62656e;
+    border-color: #fff;
+    color: #fff;
+}
